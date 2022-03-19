@@ -86,3 +86,8 @@ box-shadow: 5px 20px 50px #000;
 border-radius: 10px;
 padding: 5px;
 }
+
+.submit{
+	padding-top: 50px;
+	margin-top: 50px;
+}
