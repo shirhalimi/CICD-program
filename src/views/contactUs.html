@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+	    <link rel="stylesheet" href="./css/contactUs.css"></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+            <div class="back">
+				<button onclick="window.location.href='/'">Back</button>
+		    </div>
+            <div class="contact">
+                <form action="/action_page.php">
+                    <label for="fname" aria-hidden="true">Full Name</label>
+                    <input type="text" id="fullname" name="sullName" placeholder="Your full name..">
+
+                    <label for="email" aria-hidden="true">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+
+                    <label for="subject" aria-hidden="true">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
